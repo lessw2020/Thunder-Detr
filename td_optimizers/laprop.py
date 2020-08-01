@@ -2,6 +2,9 @@ from torch.optim import Optimizer
 import math
 import torch
 
+# source:  https://github.com/Z-T-WANG/LaProp-Optimizer
+# paper: https://arxiv.org/abs/2002.04839
+
 class LaProp(Optimizer):
     def __init__(self, params, lr=4e-4, betas=(0.9, 0.999), eps=1e-15,
                  weight_decay=0, amsgrad=False, centered=False):
