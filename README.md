@@ -7,7 +7,7 @@ Thus, Thunder-Detr was born, 8/1/2020.
 
 Updates:
 8/22/20 - add thunder_file_utils.py.  </br>
-Adds a coco_compressor to remap category_ids to contiguous values and rebase to zero.  </br.
+Adds a coco_compressor to remap category_ids to contiguous values and rebase to zero.  </br>
 Adds a show_catids to view the categories in a json file and shows the proper "num_classes" value for training DETR with. 
 
 
